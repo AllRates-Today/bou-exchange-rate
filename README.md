@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'UGX', { apiKey: 'art_live_...' });
 {
   bank: 'bou',
   name: 'Bank of Uganda',
-  rate_date: '2026-09-09',   // Bank of Uganda's own publication date
+  rate_date: '2026-09-25',   // Bank of Uganda's own publication date
   source: 'USD',
   target: 'UGX',
-  rate: 3787.62,
+  rate: 3922.86,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,11 +113,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bou',
   name: 'Bank of Uganda',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "UGX", "type": "reference", "value": 3787.62 },
-    { "base": "USD", "quote": "UGX", "type": "sell", "value": 3792.62 },
-    { "base": "USD", "quote": "UGX", "type": "buy", "value": 3782.62 },
+    { "base": "USD", "quote": "UGX", "type": "reference", "value": 3922.86 },
+    { "base": "USD", "quote": "UGX", "type": "sell", "value": 3927.86 },
+    { "base": "USD", "quote": "UGX", "type": "buy", "value": 3917.86 },
     // … the rest of the published table (33 currencies vs UGX)
   ],
   disclaimer: '…'
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bou-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'UGX', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'UGX', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'UGX',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 3787.62, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 3922.86, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
