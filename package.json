@@ -1,6 +1,6 @@
 {
   "name": "bou-exchange-rate",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Official Bank of Uganda (Uganda) daily exchange rates — 33 currencies vs UGX, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bou",
