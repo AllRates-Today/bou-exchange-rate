@@ -49,7 +49,7 @@ Published **2026-10-14** by Bank of Uganda — 99 rates, first 60 shown. Updated
 | AED | UGX | buy | 1123.1867 |
 | AED | UGX | reference | 1124.5787 |
 | AED | UGX | sell | 1125.9707 |
-| AUD | UGX | buy | 2888.0805 |
+| AUD | UGX | buy | 2888.080524 |
 | AUD | UGX | reference | 2891.787786 |
 | AUD | UGX | sell | 2895.495048 |
 | BIF | UGX | buy | 1.3702521 |
@@ -58,15 +58,15 @@ Published **2026-10-14** by Bank of Uganda — 99 rates, first 60 shown. Updated
 | CAD | UGX | buy | 2904.6895 |
 | CAD | UGX | reference | 2908.3126 |
 | CAD | UGX | sell | 2911.9358 |
-| CHF | UGX | buy | 4957.0296 |
+| CHF | UGX | buy | 4957.0295602 |
 | CHF | UGX | reference | 4963.3363 |
 | CHF | UGX | sell | 4969.6431 |
 | CNY | UGX | buy | 616.36983 |
 | CNY | UGX | reference | 617.14922 |
 | CNY | UGX | sell | 617.9286 |
-| DJF | UGX | buy | 23.104116 |
+| DJF | UGX | buy | 23.104116494 |
 | DJF | UGX | reference | 23.194063 |
-| DJF | UGX | sell | 23.284009 |
+| DJF | UGX | sell | 23.284009009 |
 | DKK | UGX | buy | 618.42113 |
 | DKK | UGX | reference | 619.19392 |
 | DKK | UGX | sell | 619.96672 |
@@ -78,7 +78,7 @@ Published **2026-10-14** by Bank of Uganda — 99 rates, first 60 shown. Updated
 | EUR | UGX | sell | 4634.776992 |
 | GBP | UGX | buy | 5472.13086 |
 | GBP | UGX | reference | 5479.383646 |
-| GBP | UGX | sell | 5486.6364 |
+| GBP | UGX | sell | 5486.636432 |
 | INR | UGX | buy | 43.438439 |
 | INR | UGX | reference | 43.493382 |
 | INR | UGX | sell | 43.548324 |
@@ -89,9 +89,9 @@ Published **2026-10-14** by Bank of Uganda — 99 rates, first 60 shown. Updated
 | KES | UGX | reference | 31.820079 |
 | KES | UGX | sell | 31.883115 |
 | KMF | UGX | buy | 9.3301669 |
-| KMF | UGX | reference | 9.3627251 |
+| KMF | UGX | reference | 9.3627251172 |
 | KMF | UGX | sell | 9.3952833 |
-| KRW | UGX | buy | 3.0812967 |
+| KRW | UGX | buy | 3.0812966836 |
 | KRW | UGX | reference | 3.0856084 |
 | KRW | UGX | sell | 3.08992 |
 | KWD | UGX | buy | 13389.289 |
@@ -99,13 +99,13 @@ Published **2026-10-14** by Bank of Uganda — 99 rates, first 60 shown. Updated
 | KWD | UGX | sell | 13417.391 |
 | LSL | UGX | buy | 250.53688 |
 | LSL | UGX | reference | 250.86266 |
-| LSL | UGX | sell | 251.18844 |
+| LSL | UGX | sell | 251.18844418 |
 | MUR | UGX | buy | 86.374372 |
 | MUR | UGX | reference | 86.752715 |
 | MUR | UGX | sell | 87.131058 |
 | MWK | UGX | buy | 2.356849 |
 | MWK | UGX | reference | 2.3826155 |
-| MWK | UGX | sell | 2.408382 |
+| MWK | UGX | sell | 2.4083819641 |
 
 [Full table on the Bank of Uganda rates page](https://allratestoday.com/central-bank-rates-api/bou/) · Source: [Official rates published by BOU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bou/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
