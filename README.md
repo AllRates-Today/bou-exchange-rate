@@ -33,79 +33,82 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bou').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Bank of Uganda table](https://allratestoday.com/api/open/central-bank/bou/table.svg)](https://allratestoday.com/central-bank-rates-api/bou/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Bank of Uganda — 99 rates, first 60 shown. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by Bank of Uganda — 99 rates, first 60 shown. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | UGX | buy | 1101.8569 |
-| AED | UGX | reference | 1103.2483 |
-| AED | UGX | sell | 1104.6398 |
-| AUD | UGX | buy | 2808.5486 |
-| AUD | UGX | reference | 2812.221445 |
-| AUD | UGX | sell | 2815.89429 |
-| BIF | UGX | buy | 1.3449319 |
-| BIF | UGX | reference | 1.3526973 |
-| BIF | UGX | sell | 1.3604628 |
-| CAD | UGX | buy | 2852.7421 |
-| CAD | UGX | reference | 2856.6700406 |
-| CAD | UGX | sell | 2860.5979 |
-| CHF | UGX | buy | 4892.2872 |
-| CHF | UGX | reference | 4899.5181 |
-| CHF | UGX | sell | 4906.7489 |
-| CNY | UGX | buy | 604.963 |
-| CNY | UGX | reference | 605.74671 |
-| CNY | UGX | sell | 606.53042 |
-| DJF | UGX | buy | 22.66536 |
-| DJF | UGX | reference | 22.754133 |
-| DJF | UGX | sell | 22.842905 |
-| DKK | UGX | buy | 607.7065157 |
-| DKK | UGX | reference | 608.50309 |
-| DKK | UGX | sell | 609.29967 |
-| ETB | UGX | buy | 24.582073 |
-| ETB | UGX | reference | 24.858873 |
-| ETB | UGX | sell | 25.135672 |
-| EUR | UGX | buy | 4542.64525 |
-| EUR | UGX | reference | 4548.460595 |
-| EUR | UGX | sell | 4554.27594 |
-| GBP | UGX | buy | 5381.16293 |
-| GBP | UGX | reference | 5388.419965 |
-| GBP | UGX | sell | 5395.677 |
-| INR | UGX | buy | 42.593343 |
-| INR | UGX | reference | 42.648214871 |
-| INR | UGX | sell | 42.703087 |
-| JPY | UGX | buy | 25.623021 |
-| JPY | UGX | reference | 25.657932 |
-| JPY | UGX | sell | 25.692844 |
-| KES | UGX | buy | 31.13 |
-| KES | UGX | reference | 31.21662 |
-| KES | UGX | sell | 31.303241 |
-| KMF | UGX | buy | 9.1724841 |
-| KMF | UGX | reference | 9.204753 |
-| KMF | UGX | sell | 9.2370219 |
-| KRW | UGX | buy | 3.0285954 |
-| KRW | UGX | reference | 3.0326213 |
-| KRW | UGX | sell | 3.0366472552 |
-| KWD | UGX | buy | 13135.021097 |
-| KWD | UGX | reference | 13149.113 |
-| KWD | UGX | sell | 13163.206 |
-| LSL | UGX | buy | 245.57922204 |
-| LSL | UGX | reference | 245.90505 |
-| LSL | UGX | sell | 246.23088 |
-| MUR | UGX | buy | 85.413677 |
-| MUR | UGX | reference | 85.7920125 |
-| MUR | UGX | sell | 86.170348 |
-| MWK | UGX | buy | 2.3120915 |
-| MWK | UGX | reference | 2.3374239534 |
-| MWK | UGX | sell | 2.3627564 |
+| AED | UGX | buy | 1125.3574 |
+| AED | UGX | reference | 1126.7495 |
+| AED | UGX | sell | 1128.1416 |
+| AUD | UGX | buy | 2882.01063 |
+| AUD | UGX | reference | 2885.91144 |
+| AUD | UGX | sell | 2889.81225 |
+| BIF | UGX | buy | 1.3712642 |
+| BIF | UGX | reference | 1.3787085 |
+| BIF | UGX | sell | 1.3861529 |
+| CAD | UGX | buy | 2930.4453 |
+| CAD | UGX | reference | 2934.3028 |
+| CAD | UGX | sell | 2938.1604 |
+| CHF | UGX | buy | 5015.2894 |
+| CHF | UGX | reference | 5021.9668 |
+| CHF | UGX | sell | 5028.6443 |
+| CNY | UGX | buy | 618.56087 |
+| CNY | UGX | reference | 619.34165088 |
+| CNY | UGX | sell | 620.12243 |
+| DJF | UGX | buy | 23.148138 |
+| DJF | UGX | reference | 23.238202 |
+| DJF | UGX | sell | 23.328266 |
+| DKK | UGX | buy | 620.55763 |
+| DKK | UGX | reference | 621.31302 |
+| DKK | UGX | sell | 622.06841 |
+| ETB | UGX | buy | 25.101713 |
+| ETB | UGX | reference | 25.383703 |
+| ETB | UGX | sell | 25.665694 |
+| EUR | UGX | buy | 4638.16482 |
+| EUR | UGX | reference | 4644.19013 |
+| EUR | UGX | sell | 4650.21544 |
+| GBP | UGX | buy | 5508.18237 |
+| GBP | UGX | reference | 5515.467335 |
+| GBP | UGX | sell | 5522.7523 |
+| INR | UGX | buy | 43.598101 |
+| INR | UGX | reference | 43.653149 |
+| INR | UGX | sell | 43.708197 |
+| JPY | UGX | buy | 26.15555 |
+| JPY | UGX | reference | 26.189680782 |
+| JPY | UGX | sell | 26.223812 |
+| KES | UGX | buy | 31.842065 |
+| KES | UGX | reference | 31.905214 |
+| KES | UGX | sell | 31.968364 |
+| KMF | UGX | buy | 9.4030258 |
+| KMF | UGX | reference | 9.4359433 |
+| KMF | UGX | sell | 9.4688607 |
+| KRW | UGX | buy | 3.1059593 |
+| KRW | UGX | reference | 3.1103018 |
+| KRW | UGX | sell | 3.1146444 |
+| KWD | UGX | buy | 13421.335 |
+| KWD | UGX | reference | 13435.387 |
+| KWD | UGX | sell | 13449.440026 |
+| LSL | UGX | buy | 251.06455 |
+| LSL | UGX | reference | 251.39045 |
+| LSL | UGX | sell | 251.71634446 |
+| MUR | UGX | buy | 87.196203 |
+| MUR | UGX | reference | 87.580055 |
+| MUR | UGX | sell | 87.963907 |
+| MWK | UGX | buy | 2.3604226 |
+| MWK | UGX | reference | 2.3869441 |
+| MWK | UGX | sell | 2.4134657 |
+
+</details>
 
 [Full table on the Bank of Uganda rates page](https://allratestoday.com/central-bank-rates-api/bou/) · Source: [Official rates published by BOU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bou/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -381,7 +384,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/bou-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/bou-exchange-rate)
 
 ## 📜 License
