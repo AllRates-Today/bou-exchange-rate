@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-22 by Bank of Uganda — 99 rates, first 60 shown. Updated 2026-10-26.</summary>
+<summary>Table as text: published 2026-10-22 by Bank of Uganda (the API currently flags this table as stale) — 99 rates, first 60 shown. Updated 2026-10-27.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
