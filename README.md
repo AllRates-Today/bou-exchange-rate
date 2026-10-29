@@ -47,64 +47,46 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Bank of Uganda — 54 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Bank of Uganda — 36 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EUR | UGX | buy | 4870.122 |
-| EUR | UGX | closing | 4847.4135925 |
-| EUR | UGX | closing_buy | 4841.629628 |
-| EUR | UGX | closing_sell | 4853.197557 |
-| EUR | UGX | midday | 4904.8479225 |
-| EUR | UGX | midday_buy | 4899.06522 |
-| EUR | UGX | midday_sell | 4910.630625 |
-| EUR | UGX | reference | 4875.901 |
-| EUR | UGX | sell | 4881.68 |
-| GBP | UGX | buy | 5820.144 |
-| GBP | UGX | closing | 5786.1985165 |
-| GBP | UGX | closing_buy | 5779.336552 |
-| GBP | UGX | closing_sell | 5793.060481 |
-| GBP | UGX | midday | 5861.39307 |
-| GBP | UGX | midday_buy | 5852.98245 |
-| GBP | UGX | midday_sell | 5869.80369 |
-| GBP | UGX | reference | 5827.4465 |
-| GBP | UGX | sell | 5834.749 |
-| KES | UGX | buy | 33.66641 |
-| KES | UGX | closing | 33.494588 |
-| KES | UGX | closing_buy | 33.430361 |
-| KES | UGX | closing_sell | 33.558814 |
-| KES | UGX | midday | 33.928868 |
-| KES | UGX | midday_buy | 33.864283 |
-| KES | UGX | midday_sell | 33.993454 |
-| KES | UGX | reference | 33.743837 |
-| KES | UGX | sell | 33.821263 |
-| TZS | UGX | buy | 1.6466165 |
-| TZS | UGX | closing | 1.6462980717 |
-| TZS | UGX | closing_buy | 1.6350714 |
-| TZS | UGX | closing_sell | 1.6575247 |
-| TZS | UGX | midday | 1.6734078 |
-| TZS | UGX | midday_buy | 1.6569037 |
-| TZS | UGX | midday_sell | 1.6899119 |
-| TZS | UGX | reference | 1.657909 |
-| TZS | UGX | sell | 1.6692015 |
-| USD | UGX | buy | 4380 |
-| USD | UGX | closing | 4354.29 |
-| USD | UGX | closing_buy | 4349.29 |
-| USD | UGX | closing_sell | 4359.29 |
-| USD | UGX | midday | 4409.05 |
-| USD | UGX | midday_buy | 4404.05 |
-| USD | UGX | midday_sell | 4414.05 |
-| USD | UGX | reference | 4385 |
-| USD | UGX | sell | 4390 |
-| ZAR | UGX | buy | 262.77109518 |
-| ZAR | UGX | closing | 261.477 |
-| ZAR | UGX | closing_buy | 260.94122 |
-| ZAR | UGX | closing_sell | 262.01278 |
-| ZAR | UGX | midday | 264.64493588 |
-| ZAR | UGX | midday_buy | 264.30749 |
-| ZAR | UGX | midday_sell | 264.98238 |
-| ZAR | UGX | reference | 263.16672 |
-| ZAR | UGX | sell | 263.56235441 |
+| EUR | UGX | buy | 4842.755568 |
+| EUR | UGX | midday | 4848.8880325 |
+| EUR | UGX | midday_buy | 4843.10208 |
+| EUR | UGX | midday_sell | 4854.673985 |
+| EUR | UGX | reference | 4848.540544 |
+| EUR | UGX | sell | 4854.32552 |
+| GBP | UGX | buy | 5786.166456 |
+| GBP | UGX | midday | 5794.1527875 |
+| GBP | UGX | midday_buy | 5786.84593 |
+| GBP | UGX | midday_sell | 5801.459645 |
+| GBP | UGX | reference | 5794.561764 |
+| GBP | UGX | sell | 5802.957072 |
+| KES | UGX | buy | 33.444982699 |
+| KES | UGX | midday | 33.518525 |
+| KES | UGX | midday_buy | 33.454231 |
+| KES | UGX | midday_sell | 33.58282 |
+| KES | UGX | reference | 33.509245 |
+| KES | UGX | sell | 33.573508 |
+| TZS | UGX | buy | 1.6320901 |
+| TZS | UGX | midday | 1.6431011 |
+| TZS | UGX | midday_buy | 1.6319137 |
+| TZS | UGX | midday_sell | 1.6542884 |
+| TZS | UGX | reference | 1.6432784 |
+| TZS | UGX | sell | 1.6544668 |
+| USD | UGX | buy | 4349.52 |
+| USD | UGX | midday | 4354.05 |
+| USD | UGX | midday_buy | 4349.05 |
+| USD | UGX | midday_sell | 4359.05 |
+| USD | UGX | reference | 4354.52 |
+| USD | UGX | sell | 4359.52 |
+| ZAR | UGX | buy | 261.15244 |
+| ZAR | UGX | midday | 261.74514 |
+| ZAR | UGX | midday_buy | 261.36903 |
+| ZAR | UGX | midday_sell | 262.12124 |
+| ZAR | UGX | reference | 261.55016 |
+| ZAR | UGX | sell | 261.94788 |
 
 </details>
 
@@ -271,6 +253,7 @@ The Bank of Uganda publishes a daily opening rate card each morning — middle, 
 
 - Publisher's own page: [Exchange rates](https://bou.or.ug/) · [bou.or.ug](https://bou.or.ug)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Bank of Uganda rates page](https://allratestoday.com/central-bank-rates-api/bou/)
+- In the API: usually by **10:15 UTC** (measured over the last 9 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
