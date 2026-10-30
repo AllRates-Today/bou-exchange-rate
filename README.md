@@ -24,87 +24,54 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Bank of Uganda table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/bou?source=USD&target=UGX"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/bou').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Bank of Uganda table](https://allratestoday.com/api/open/central-bank/bou/table.svg)](https://allratestoday.com/central-bank-rates-api/bou/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Bank of Uganda — 54 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Bank of Uganda — 36 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EUR | UGX | buy | 4842.755568 |
-| EUR | UGX | closing | 4842.626678 |
-| EUR | UGX | closing_buy | 4836.627964 |
-| EUR | UGX | closing_sell | 4848.625392 |
-| EUR | UGX | midday | 4848.8880325 |
-| EUR | UGX | midday_buy | 4843.10208 |
-| EUR | UGX | midday_sell | 4854.673985 |
-| EUR | UGX | reference | 4848.540544 |
-| EUR | UGX | sell | 4854.32552 |
-| GBP | UGX | buy | 5786.166456 |
-| GBP | UGX | closing | 5799.22755 |
-| GBP | UGX | closing_buy | 5791.694622 |
-| GBP | UGX | closing_sell | 5806.760478 |
-| GBP | UGX | midday | 5794.1527875 |
-| GBP | UGX | midday_buy | 5786.84593 |
-| GBP | UGX | midday_sell | 5801.459645 |
-| GBP | UGX | reference | 5794.561764 |
-| GBP | UGX | sell | 5802.957072 |
-| KES | UGX | buy | 33.444982699 |
-| KES | UGX | closing | 33.478049 |
-| KES | UGX | closing_buy | 33.413836 |
-| KES | UGX | closing_sell | 33.542263 |
-| KES | UGX | midday | 33.518525 |
-| KES | UGX | midday_buy | 33.454231 |
-| KES | UGX | midday_sell | 33.58282 |
-| KES | UGX | reference | 33.509245 |
-| KES | UGX | sell | 33.573508 |
-| TZS | UGX | buy | 1.6320901 |
-| TZS | UGX | closing | 1.6473538 |
-| TZS | UGX | closing_buy | 1.6361084 |
-| TZS | UGX | closing_sell | 1.6585992 |
-| TZS | UGX | midday | 1.6431011 |
-| TZS | UGX | midday_buy | 1.6319137 |
-| TZS | UGX | midday_sell | 1.6542884 |
-| TZS | UGX | reference | 1.6432784 |
-| TZS | UGX | sell | 1.6544668 |
-| USD | UGX | buy | 4349.52 |
-| USD | UGX | closing | 4352.14 |
-| USD | UGX | closing_buy | 4347.14 |
-| USD | UGX | closing_sell | 4357.14 |
-| USD | UGX | midday | 4354.05 |
-| USD | UGX | midday_buy | 4349.05 |
-| USD | UGX | midday_sell | 4359.05 |
-| USD | UGX | reference | 4354.52 |
-| USD | UGX | sell | 4359.52 |
-| ZAR | UGX | buy | 261.15244 |
-| ZAR | UGX | closing | 261.41732 |
-| ZAR | UGX | closing_buy | 261.07851 |
-| ZAR | UGX | closing_sell | 261.75612 |
-| ZAR | UGX | midday | 261.74514 |
-| ZAR | UGX | midday_buy | 261.36903 |
-| ZAR | UGX | midday_sell | 262.12124 |
-| ZAR | UGX | reference | 261.55016 |
-| ZAR | UGX | sell | 261.94788 |
+| EUR | UGX | buy | 4859.179584 |
+| EUR | UGX | midday | 4744.7122235 |
+| EUR | UGX | midday_buy | 4738.903533 |
+| EUR | UGX | midday_sell | 4750.520914 |
+| EUR | UGX | reference | 4865.20706 |
+| EUR | UGX | sell | 4871.234536 |
+| GBP | UGX | buy | 5818.068116 |
+| GBP | UGX | midday | 5688.2718295 |
+| GBP | UGX | midday_buy | 5680.926258 |
+| GBP | UGX | midday_sell | 5695.617401 |
+| GBP | UGX | reference | 5825.852306 |
+| GBP | UGX | sell | 5833.636496 |
+| KES | UGX | buy | 33.395542 |
+| KES | UGX | midday | 32.60628 |
+| KES | UGX | midday_buy | 32.542736 |
+| KES | UGX | midday_sell | 32.669823 |
+| KES | UGX | reference | 33.459742 |
+| KES | UGX | sell | 33.523941 |
+| TZS | UGX | buy | 1.6303039 |
+| TZS | UGX | midday | 1.5996129 |
+| TZS | UGX | midday_buy | 1.5886717 |
+| TZS | UGX | midday_sell | 1.6105540797 |
+| TZS | UGX | reference | 1.6414821 |
+| TZS | UGX | sell | 1.6526603 |
+| USD | UGX | buy | 4344.76 |
+| USD | UGX | midday | 4238.81 |
+| USD | UGX | midday_buy | 4233.81 |
+| USD | UGX | midday_sell | 4243.81 |
+| USD | UGX | reference | 4349.76 |
+| USD | UGX | sell | 4354.76 |
+| ZAR | UGX | buy | 261.22267 |
+| ZAR | UGX | midday | 254.87949836 |
+| ZAR | UGX | midday_buy | 254.50758 |
+| ZAR | UGX | midday_sell | 255.25141 |
+| ZAR | UGX | reference | 261.57526 |
+| ZAR | UGX | sell | 261.92785 |
 
 </details>
 
