@@ -32,41 +32,59 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-13 by Bank of Uganda — 36 rates. Updated 2026-11-13.</summary>
+<summary>Table as text: published 2026-11-13 by Bank of Uganda — 54 rates. Updated 2026-11-13.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | EUR | UGX | buy | 4548.317124 |
+| EUR | UGX | closing | 4563.155021 |
+| EUR | UGX | closing_buy | 4556.387664 |
+| EUR | UGX | closing_sell | 4569.922378 |
 | EUR | UGX | midday | 4561.052811 |
 | EUR | UGX | midday_buy | 4555.110882 |
 | EUR | UGX | midday_sell | 4566.99474 |
 | EUR | UGX | reference | 4554.263067 |
 | EUR | UGX | sell | 4560.20901 |
 | GBP | UGX | buy | 5440.063434 |
+| GBP | UGX | closing | 5462.8710005 |
+| GBP | UGX | closing_buy | 5454.807084 |
+| GBP | UGX | closing_sell | 5470.934917 |
 | GBP | UGX | midday | 5459.323173 |
 | GBP | UGX | midday_buy | 5452.292244 |
 | GBP | UGX | midday_sell | 5466.354102 |
 | GBP | UGX | reference | 5447.3003485 |
 | GBP | UGX | sell | 5454.537263 |
 | KES | UGX | buy | 31.562442 |
+| KES | UGX | closing | 31.739971 |
+| KES | UGX | closing_buy | 31.677095 |
+| KES | UGX | closing_sell | 31.802848 |
 | KES | UGX | midday | 31.725356 |
 | KES | UGX | midday_buy | 31.662490392 |
 | KES | UGX | midday_sell | 31.788221709 |
 | KES | UGX | reference | 31.63738 |
 | KES | UGX | sell | 31.712317 |
 | TZS | UGX | buy | 1.542 |
+| TZS | UGX | closing | 1.5600571 |
+| TZS | UGX | closing_buy | 1.5493195 |
+| TZS | UGX | closing_sell | 1.5707947 |
 | TZS | UGX | midday | 1.5563964 |
 | TZS | UGX | midday_buy | 1.5456998 |
 | TZS | UGX | midday_sell | 1.567093 |
 | TZS | UGX | reference | 1.5556533 |
 | TZS | UGX | sell | 1.5693067 |
 | USD | UGX | buy | 4109.43 |
+| USD | UGX | closing | 4126.19 |
+| USD | UGX | closing_buy | 4121.19 |
+| USD | UGX | closing_sell | 4131.19 |
 | USD | UGX | midday | 4124.29 |
 | USD | UGX | midday_buy | 4119.29 |
 | USD | UGX | midday_sell | 4129.29 |
 | USD | UGX | reference | 4114.43 |
 | USD | UGX | sell | 4119.43 |
 | ZAR | UGX | buy | 245.20735 |
+| ZAR | UGX | closing | 243.68612 |
+| ZAR | UGX | closing_buy | 243.35485 |
+| ZAR | UGX | closing_sell | 244.01739 |
 | ZAR | UGX | midday | 244.94966 |
 | ZAR | UGX | midday_buy | 244.61197 |
 | ZAR | UGX | midday_sell | 245.28736 |
